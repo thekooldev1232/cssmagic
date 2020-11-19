@@ -1,0 +1,110 @@
+body{
+    background-color: antiquewhite;
+    height: 100%;
+}
+
+
+.wrapper {
+    width: 90%;
+    background-color: salmon;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.wrapper * {
+    margin: 10px 0;
+}
+
+.nav{
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.nav ul {
+    list-style: none;
+    text-decoration-style: none;
+    position: absolute;
+    top: 50%;
+    right:0%;
+    transform: translate(0,-50%);
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    float: right;
+}
+
+.nav:after {
+    content: "";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+.summary {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.summary p {
+    margin: 5px 0; 
+}
+
+
+.skill {
+    float: left;
+    display: inline-block;
+    width: 27%;
+    padding: 2%;
+    margin: 1%;
+    background-color: whitesmoke;
+    height: 100px ;
+    border-radius: 10px;
+}
+
+.skills:after{
+    content: "";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+
+.projects {
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+
+.project {
+    width: 45%;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+}
+
+.projects:after{
+    content: "";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+
+.footer {
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
