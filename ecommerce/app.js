@@ -1,0 +1,10 @@
+$('.add-item').on('click',function(){
+    $(this).closest('div').
+    find('img').
+    clone().
+    addClass('animateitem').
+    appendTo('body').
+    setTimeout(function(){
+        $('animateitem').remove();
+    },1000)
+})
